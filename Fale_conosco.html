@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Fale Conosco</title>
+        <meta charset="utf-8"/>
+    </head>
+<body style="background-color: pink">
+    <nav>
+        <a href="pagina1.html" title="Fazer o teste">Fazer o teste</a>|
+        <a href="pagina2.html" title="Resultado">Resultado</a>|
+        <a href="links.html" title="Sugestões">Sugestões</a>|
+        <a href="imagens.html" title="Imagens">Imagens</a>|
+        <a href="Fale_conosco.html" title="Fale conosco">Fale conosco</a>|
+    </nav>
+    <h1>Fale conosco</h1>
+    <!--falta colocar action-->
+    <form method="get" action="index.html">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            Nome: <input type="text" id="Nome" name="Nome" size="50" maxlength="20" placeholder="Digite seu nome" autofocus/>
+            <br>
+            Qual o seu temperamento?<!--SELECT é uma lista Suspensa , a outra opção é DATALIST que filtra--> <select id="temperamento?" name="temperamento">
+                <option value="Melancólico"> Melancólico </option>
+                <option value="Fleumático"> Fleumático </option>
+                <option value="Colérico"> Colérico </option>
+                <option value="Sanguíneo"> Sanguíneo </option>
+            </select><br>
+            <input type="radio" name="genero" value="Feminino">Feminino<br>
+            <input type="radio" name="genero" value="Masculino">Masculino<br>
+            <textarea name="Mensagem" cols="55" rows="10">
+                Escreva sua mensagem!
+            </textarea><br>
+            <input type="submit" value="Enviar"/>
+        </fieldset>
+    </form>
+<br><br><br><br><br><br><br><br><br>
+    <a href="index.html"> INICIO</a>
+</body>
+</html>
